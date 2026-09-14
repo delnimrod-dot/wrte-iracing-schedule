@@ -1,2 +1,5 @@
-# wrte-iracing-schedule
-Worst Racing Team Ever — weekly iRacing schedule overview
+# WRTE iRacing Schedule
+
+Weekly iRacing overview for Worst Racing Team Ever followed series.
+
+Live page: GitHub Pages on this repo.
