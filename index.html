@@ -83,11 +83,11 @@ td.mid { color:var(--track); }
   background:#1a241a; color:var(--muted); font-size:10px; font-weight:700;
   vertical-align:middle;
 }
-.section-label {
-  margin:16px 0 8px; font-size:11px; letter-spacing:.16em; text-transform:uppercase;
-  color:var(--green); font-weight:700; white-space:nowrap;
+.section-table { margin-top:14px; }
+.section-table:first-of-type { margin-top:0; }
+.section-table thead th {
+  white-space:nowrap;
 }
-.section-label:first-child { margin-top:0; }
 .idle { margin-top:14px; padding-top:10px; border-top:1px dashed var(--line); }
 .idle h3 { margin:0 0 8px; font-size:11px; letter-spacing:.16em; text-transform:uppercase; color:var(--green); }
 footer {
@@ -293,10 +293,10 @@ function render() {
     <span class="count">${activeCount} this week · ${group.series.length} series</span>
   </div>`;
 
-  function tableFor(rows, forceCar) {
+  function tableFor(rows, title, forceCar) {
     if (!rows.length) return '';
     const useCar = forceCar || (rows.length && rows.every(a => a.s.ringMeister));
-    let t = `<table><thead><tr><th></th><th>${useCar ? 'Car' : 'Track'}</th></tr></thead><tbody>`;
+    let t = `<table class="section-table"><thead><tr><th>${esc(title)}</th><th>${useCar ? 'Car' : 'Track'}</th></tr></thead><tbody>`;
     rows.forEach((row, i) => {
       const mid = rowMid(row.s, row.w);
       t += `<tr class="${i%2?'':'alt'}"><td class="series">${esc(row.s.name)}${tagsHtml(row.s)}</td><td class="mid">${esc(mid)}</td></tr>`;
@@ -308,10 +308,10 @@ function render() {
     html += `<p class="meta">No rounds this week in ${esc(group.label)}.</p>`;
   } else {
     if (daily.length) {
-      html += `<div class="section-label">Daily races</div>` + tableFor(daily);
+      html += tableFor(daily, 'Daily races');
     }
     if (special.length) {
-      html += `<div class="section-label">Special events series</div>` + tableFor(special);
+      html += tableFor(special, 'Special events');
     }
   }
 
