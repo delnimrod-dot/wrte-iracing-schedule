@@ -8,6 +8,137 @@
       "label": "Sports Car",
       "series": [
         {
+          "id": "GT3 Challenge Fixed",
+          "name": "GT3 Challenge Fixed",
+          "sourceName": "GT3 Challenge Fixed by Fanatec",
+          "tags": [
+            "Fixed"
+          ],
+          "ringMeister": false,
+          "weeks": [
+            {
+              "w": 1,
+              "d": "2026-09-15",
+              "track": "Silverstone Circuit - Grand Prix",
+              "t": 20,
+              "r": "dry",
+              "s": "Rolling",
+              "sim": "13:30",
+              "wx": 1
+            },
+            {
+              "w": 2,
+              "d": "2026-09-22",
+              "track": "Road Atlanta - Full Course",
+              "t": 24,
+              "r": "35% rain, 2% before",
+              "s": "Rolling",
+              "sim": "13:55",
+              "wx": 1
+            },
+            {
+              "w": 3,
+              "d": "2026-09-29",
+              "track": "Circuit Zandvoort - Grand Prix",
+              "t": 19,
+              "r": "73% rain, 75% before",
+              "s": "Rolling",
+              "sim": "10:10",
+              "wx": 1
+            },
+            {
+              "w": 4,
+              "d": "2026-10-06",
+              "track": "Mobility Resort Motegi - Grand Prix",
+              "t": 19,
+              "r": "100% rain, 100% before",
+              "s": "Rolling",
+              "sim": "11:30",
+              "wx": 1
+            },
+            {
+              "w": 5,
+              "d": "2026-10-13",
+              "track": "Indianapolis Motor Speedway - Road Course",
+              "t": 22,
+              "r": "dry",
+              "s": "Rolling",
+              "sim": "09:50",
+              "wx": 1
+            },
+            {
+              "w": 6,
+              "d": "2026-10-20",
+              "track": "Shell V-Power Motorsport Park at The Bend - GT Circuit",
+              "t": 23,
+              "r": "dry",
+              "s": "Rolling",
+              "sim": "11:30",
+              "wx": 1
+            },
+            {
+              "w": 7,
+              "d": "2026-10-27",
+              "track": "Circuit of the Americas - Grand Prix",
+              "t": 25,
+              "r": "dry",
+              "s": "Rolling",
+              "sim": "13:45",
+              "wx": 1
+            },
+            {
+              "w": 8,
+              "d": "2026-11-03",
+              "track": "Circuit de Spa-Francorchamps - Grand Prix Pits",
+              "t": 18,
+              "r": "51% rain, 5% before",
+              "s": "Rolling",
+              "sim": "10:40",
+              "wx": 1
+            },
+            {
+              "w": 9,
+              "d": "2026-11-10",
+              "track": "Fuji International Speedway - Grand Prix",
+              "t": 19,
+              "r": "dry",
+              "s": "Rolling",
+              "sim": "08:15",
+              "wx": 1
+            },
+            {
+              "w": 10,
+              "d": "2026-11-17",
+              "track": "Misano World Circuit Marco Simoncelli - Grand Prix",
+              "t": 20,
+              "r": "dry",
+              "s": "Rolling",
+              "sim": "12:00",
+              "wx": 1
+            },
+            {
+              "w": 11,
+              "d": "2026-11-24",
+              "track": "Sebring International Raceway - International",
+              "t": 28,
+              "r": "dry",
+              "s": "Rolling",
+              "sim": "12:30",
+              "wx": 1
+            },
+            {
+              "w": 12,
+              "d": "2026-12-01",
+              "track": "Suzuka International Racing Course - Grand Prix",
+              "t": 22,
+              "r": "dry",
+              "s": "Rolling",
+              "sim": "12:00",
+              "wx": 1
+            }
+          ]
+        },
+        {
           "id": "Global Mazda MX-5 Cup",
           "name": "Global Mazda MX-5 Cup",
           "sourceName": "Global Mazda MX-5 Cup by Fanatec",
@@ -121,1119 +252,6 @@
               "r": "dry",
               "s": "Standing",
               "sim": "12:00"
-            }
-          ]
-        },
-        {
-          "id": "Production Car Challenge",
-          "name": "Production Car Challenge",
-          "sourceName": "Production Car Challenge by Sim-Lab",
-          "tags": [],
-          "ringMeister": false,
-          "weeks": [
-            {
-              "w": 1,
-              "d": "2026-09-15",
-              "track": "Hockenheimring Baden-W\u00fcrttemberg - Outer",
-              "t": 19,
-              "r": "dry",
-              "s": "Rolling",
-              "sim": "09:15",
-              "wx": 1
-            },
-            {
-              "w": 2,
-              "d": "2026-09-22",
-              "track": "Autodromo Nazionale Monza - GP without first chicane",
-              "t": 25,
-              "r": "dry",
-              "s": "Rolling",
-              "sim": "12:00",
-              "wx": 1
-            },
-            {
-              "w": 3,
-              "d": "2026-09-29",
-              "track": "Snetterton Circuit - 300",
-              "t": 20,
-              "r": "7% rain, 3% before",
-              "s": "Rolling",
-              "sim": "13:25",
-              "wx": 1
-            },
-            {
-              "w": 4,
-              "d": "2026-10-06",
-              "track": "Motorsport Arena Oschersleben - Grand Prix",
-              "t": 19,
-              "r": "dry",
-              "s": "Rolling",
-              "sim": "10:00",
-              "wx": 1
-            },
-            {
-              "w": 5,
-              "d": "2026-10-13",
-              "track": "Silverstone Circuit - International",
-              "t": 20,
-              "r": "dry",
-              "s": "Rolling",
-              "sim": "12:00",
-              "wx": 1
-            },
-            {
-              "w": 6,
-              "d": "2026-10-20",
-              "track": "N\u00fcrburgring Grand-Prix-Strecke - Kurzanbindung w/out Arena",
-              "t": 19,
-              "r": "dry",
-              "s": "Rolling",
-              "sim": "14:05",
-              "wx": 1
-            },
-            {
-              "w": 7,
-              "d": "2026-10-27",
-              "track": "Circuito de Navarra - Speed Circuit",
-              "t": 19,
-              "r": "dry",
-              "s": "Rolling",
-              "sim": "13:20",
-              "wx": 1
-            },
-            {
-              "w": 8,
-              "d": "2026-11-03",
-              "track": "Sonoma Raceway - Cup Long",
-              "t": 23,
-              "r": "dry",
-              "s": "Rolling",
-              "sim": "12:00",
-              "wx": 1
-            },
-            {
-              "w": 9,
-              "d": "2026-11-10",
-              "track": "Circuit des 24 Heures du Mans - Historic",
-              "t": 20,
-              "r": "dry",
-              "s": "Rolling",
-              "sim": "09:45",
-              "wx": 1
-            },
-            {
-              "w": 10,
-              "d": "2026-11-17",
-              "track": "Summit Point Raceway - Summit Point Raceway",
-              "t": 18,
-              "r": "14% rain, 100% before",
-              "s": "Rolling",
-              "sim": "14:15",
-              "wx": 1
-            },
-            {
-              "w": 11,
-              "d": "2026-11-24",
-              "track": "Watkins Glen International - Classic Boot",
-              "t": 19,
-              "r": "dry",
-              "s": "Rolling",
-              "sim": "17:05",
-              "wx": 1
-            },
-            {
-              "w": 12,
-              "d": "2026-12-01",
-              "track": "Oulton Park Circuit - Island Historic",
-              "t": 19,
-              "r": "dry",
-              "s": "Rolling",
-              "sim": "15:50",
-              "wx": 1
-            }
-          ]
-        },
-        {
-          "id": "Production Endurance Challenge",
-          "name": "Production Endurance Challenge",
-          "sourceName": "Production Endurance Challenge",
-          "tags": [],
-          "ringMeister": false,
-          "weeks": [
-            {
-              "w": 1,
-              "d": "2026-09-18",
-              "track": "Hockenheimring Baden-W\u00fcrttemberg - Outer",
-              "t": 20,
-              "r": "29% rain",
-              "s": "Rolling",
-              "sim": "09:15"
-            },
-            {
-              "w": 2,
-              "d": "2026-09-25",
-              "track": "Autodromo Nazionale Monza - GP without first chicane",
-              "t": 22,
-              "r": "dry",
-              "s": "Rolling",
-              "sim": "12:00"
-            },
-            {
-              "w": 3,
-              "d": "2026-10-02",
-              "track": "Snetterton Circuit - 300",
-              "t": 19,
-              "r": "dry",
-              "s": "Rolling",
-              "sim": "13:25"
-            },
-            {
-              "w": 4,
-              "d": "2026-10-09",
-              "track": "Motorsport Arena Oschersleben - Grand Prix",
-              "t": 21,
-              "r": "dry",
-              "s": "Rolling",
-              "sim": "10:00"
-            },
-            {
-              "w": 5,
-              "d": "2026-10-16",
-              "track": "Silverstone Circuit - International",
-              "t": 19,
-              "r": "dry",
-              "s": "Rolling",
-              "sim": "12:00"
-            },
-            {
-              "w": 6,
-              "d": "2026-10-23",
-              "track": "N\u00fcrburgring Grand-Prix-Strecke - Kurzanbindung w/out Arena",
-              "t": 19,
-              "r": "34% rain",
-              "s": "Rolling",
-              "sim": "14:05"
-            },
-            {
-              "w": 7,
-              "d": "2026-10-30",
-              "track": "Circuito de Navarra - Speed Circuit",
-              "t": 20,
-              "r": "dry",
-              "s": "Rolling",
-              "sim": "13:20"
-            },
-            {
-              "w": 8,
-              "d": "2026-11-06",
-              "track": "Sonoma Raceway - Cup Long",
-              "t": 21,
-              "r": "dry",
-              "s": "Rolling",
-              "sim": "12:00"
-            },
-            {
-              "w": 9,
-              "d": "2026-11-13",
-              "track": "Circuit des 24 Heures du Mans - Historic",
-              "t": 19,
-              "r": "dry",
-              "s": "Rolling",
-              "sim": "09:45"
-            },
-            {
-              "w": 10,
-              "d": "2026-11-20",
-              "track": "Summit Point Raceway - Summit Point Raceway",
-              "t": 19,
-              "r": "dry",
-              "s": "Rolling",
-              "sim": "14:15"
-            },
-            {
-              "w": 11,
-              "d": "2026-11-27",
-              "track": "Watkins Glen International - Classic Boot",
-              "t": 19,
-              "r": "28% rain",
-              "s": "Rolling",
-              "sim": "17:05"
-            },
-            {
-              "w": 12,
-              "d": "2026-12-04",
-              "track": "Oulton Park Circuit - Island Historic",
-              "t": 19,
-              "r": "dry",
-              "s": "Rolling",
-              "sim": "15:50"
-            }
-          ]
-        },
-        {
-          "id": "Toyota GR86 Cup",
-          "name": "Toyota GR86 Cup",
-          "sourceName": "Toyota GR86 Cup by SIMAGIC",
-          "tags": [],
-          "ringMeister": false,
-          "weeks": [
-            {
-              "w": 1,
-              "d": "2026-09-15",
-              "track": "Oulton Park Circuit - Fosters",
-              "t": 20,
-              "r": "dry",
-              "s": "Rolling",
-              "sim": "12:00",
-              "wx": 1
-            },
-            {
-              "w": 2,
-              "d": "2026-09-22",
-              "track": "Barber Motorsports Park",
-              "t": 23,
-              "r": "dry",
-              "s": "Rolling",
-              "sim": "08:15",
-              "wx": 1
-            },
-            {
-              "w": 3,
-              "d": "2026-09-29",
-              "track": "Circuit de Spa-Francorchamps - Grand Prix Pits",
-              "t": 20,
-              "r": "dry",
-              "s": "Rolling",
-              "sim": "16:25",
-              "wx": 1
-            },
-            {
-              "w": 4,
-              "d": "2026-10-06",
-              "track": "Indianapolis Motor Speedway - Road Course",
-              "t": 20,
-              "r": "15% rain, slight before",
-              "s": "Rolling",
-              "sim": "15:15",
-              "wx": 1
-            },
-            {
-              "w": 5,
-              "d": "2026-10-13",
-              "track": "Tsukuba Circuit - 2000 Full",
-              "t": 23,
-              "r": "dry",
-              "s": "Rolling",
-              "sim": "12:00",
-              "wx": 1
-            },
-            {
-              "w": 6,
-              "d": "2026-10-20",
-              "track": "Daytona International Speedway - Road Course",
-              "t": 23,
-              "r": "dry",
-              "s": "Rolling",
-              "sim": "19:35",
-              "wx": 1
-            },
-            {
-              "w": 7,
-              "d": "2026-10-27",
-              "track": "WeatherTech Raceway at Laguna Seca - 2026",
-              "t": 21,
-              "r": "dry",
-              "s": "Rolling",
-              "sim": "09:25",
-              "wx": 1
-            },
-            {
-              "w": 8,
-              "d": "2026-11-03",
-              "track": "Snetterton Circuit - 300",
-              "t": 19,
-              "r": "dry",
-              "s": "Rolling",
-              "sim": "12:10",
-              "wx": 1
-            },
-            {
-              "w": 9,
-              "d": "2026-11-10",
-              "track": "Road Atlanta - Full Course",
-              "t": 20,
-              "r": "dry",
-              "s": "Rolling",
-              "sim": "15:05",
-              "wx": 1
-            },
-            {
-              "w": 10,
-              "d": "2026-11-17",
-              "track": "Circuit Zandvoort - Grand Prix",
-              "t": 19,
-              "r": "dry",
-              "s": "Rolling",
-              "sim": "09:35",
-              "wx": 1
-            },
-            {
-              "w": 11,
-              "d": "2026-11-24",
-              "track": "Lime Rock Park - Grand Prix",
-              "t": 18,
-              "r": "10% rain, 100% before",
-              "s": "Rolling",
-              "sim": "16:50",
-              "wx": 1
-            },
-            {
-              "w": 12,
-              "d": "2026-12-01",
-              "track": "Road America - Short West",
-              "t": 18,
-              "r": "dry",
-              "s": "Rolling",
-              "sim": "08:30",
-              "wx": 1
-            }
-          ]
-        },
-        {
-          "id": "Track Day",
-          "name": "Track Day",
-          "sourceName": "Track Day",
-          "tags": [],
-          "ringMeister": false,
-          "weeks": [
-            {
-              "w": 1,
-              "d": "2026-09-15",
-              "track": "Summit Point Raceway - Summit Point Raceway",
-              "t": null,
-              "r": "constant weather",
-              "s": "Standing",
-              "sim": "12:00"
-            },
-            {
-              "w": 2,
-              "d": "2026-09-22",
-              "track": "Okayama International Circuit - Full Course",
-              "t": null,
-              "r": "constant weather",
-              "s": "Standing",
-              "sim": "12:00"
-            },
-            {
-              "w": 3,
-              "d": "2026-09-29",
-              "track": "Oulton Park Circuit - International",
-              "t": null,
-              "r": "constant weather",
-              "s": "Standing",
-              "sim": "16:25"
-            },
-            {
-              "w": 4,
-              "d": "2026-10-06",
-              "track": "Shell V-Power Motorsport Park at The Bend - West Plus Circuit",
-              "t": null,
-              "r": "constant weather",
-              "s": "Standing",
-              "sim": "10:30"
-            },
-            {
-              "w": 5,
-              "d": "2026-10-13",
-              "track": "Rudskogen Motorsenter",
-              "t": null,
-              "r": "constant weather",
-              "s": "Standing",
-              "sim": "13:50"
-            },
-            {
-              "w": 6,
-              "d": "2026-10-20",
-              "track": "WeatherTech Raceway at Laguna Seca - 2026",
-              "t": null,
-              "r": "constant weather",
-              "s": "Standing",
-              "sim": "16:45"
-            },
-            {
-              "w": 7,
-              "d": "2026-10-27",
-              "track": "Motorsport Arena Oschersleben - Grand Prix",
-              "t": null,
-              "r": "constant weather",
-              "s": "Standing",
-              "sim": "12:00"
-            },
-            {
-              "w": 8,
-              "d": "2026-11-03",
-              "track": "MotorLand Arag\u00f3n - National",
-              "t": null,
-              "r": "constant weather",
-              "s": "Standing",
-              "sim": "13:20"
-            },
-            {
-              "w": 9,
-              "d": "2026-11-10",
-              "track": "Circuit Zandvoort - Grand Prix",
-              "t": null,
-              "r": "constant weather",
-              "s": "Standing",
-              "sim": "15:30"
-            },
-            {
-              "w": 10,
-              "d": "2026-11-17",
-              "track": "Virginia International Raceway - Grand Course",
-              "t": null,
-              "r": "constant weather",
-              "s": "Standing",
-              "sim": "12:00"
-            },
-            {
-              "w": 11,
-              "d": "2026-11-24",
-              "track": "Circuito de Jerez - \u00c1ngel Nieto - Grand Prix",
-              "t": null,
-              "r": "constant weather",
-              "s": "Standing",
-              "sim": "13:15"
-            },
-            {
-              "w": 12,
-              "d": "2026-12-01",
-              "track": "Algarve International Circuit - Grand Prix",
-              "t": null,
-              "r": "constant weather",
-              "s": "Standing",
-              "sim": "15:25"
-            }
-          ]
-        },
-        {
-          "id": "Advanced Mazda MX-5 Cup",
-          "name": "Advanced Mazda MX-5 Cup",
-          "sourceName": "Advanced Mazda MX-5 Cup by Heusinkveld",
-          "tags": [],
-          "ringMeister": false,
-          "weeks": [
-            {
-              "w": 1,
-              "d": "2026-09-15",
-              "track": "Daytona International Speedway - Road Course",
-              "t": 28,
-              "r": "dry",
-              "s": "Standing",
-              "sim": "20:15",
-              "wx": 1
-            },
-            {
-              "w": 2,
-              "d": "2026-09-22",
-              "track": "Okayama International Circuit - Full Course",
-              "t": 22,
-              "r": "6% rain, 100% before",
-              "s": "Standing",
-              "sim": "12:00",
-              "wx": 1
-            },
-            {
-              "w": 3,
-              "d": "2026-09-29",
-              "track": "Knockhill Racing Circuit - International",
-              "t": 19,
-              "r": "dry",
-              "s": "Standing",
-              "sim": "12:00",
-              "wx": 1
-            },
-            {
-              "w": 4,
-              "d": "2026-10-06",
-              "track": "Long Beach Street Circuit",
-              "t": 21,
-              "r": "dry",
-              "s": "Standing",
-              "sim": "13:05",
-              "wx": 1
-            },
-            {
-              "w": 5,
-              "d": "2026-10-13",
-              "track": "Phillip Island Circuit",
-              "t": 20,
-              "r": "2% rain, 24% before",
-              "s": "Standing",
-              "sim": "17:15",
-              "wx": 1
-            },
-            {
-              "w": 6,
-              "d": "2026-10-20",
-              "track": "Mount Panorama Circuit",
-              "t": 19,
-              "r": "41% rain, dry before",
-              "s": "Standing",
-              "sim": "07:50",
-              "wx": 1
-            },
-            {
-              "w": 7,
-              "d": "2026-10-27",
-              "track": "Hockenheimring Baden-W\u00fcrttemberg - National A",
-              "t": 19,
-              "r": "17% rain, slight before",
-              "s": "Standing",
-              "sim": "12:00",
-              "wx": 1
-            },
-            {
-              "w": 8,
-              "d": "2026-11-03",
-              "track": "Charlotte Motor Speedway - Roval 2019",
-              "t": 19,
-              "r": "dry",
-              "s": "Standing",
-              "sim": "14:55",
-              "wx": 1
-            },
-            {
-              "w": 9,
-              "d": "2026-11-10",
-              "track": "Circuit de Barcelona Catalunya - National",
-              "t": 19,
-              "r": "dry",
-              "s": "Standing",
-              "sim": "12:00",
-              "wx": 1
-            },
-            {
-              "w": 10,
-              "d": "2026-11-17",
-              "track": "Brands Hatch Circuit - Grand Prix",
-              "t": 19,
-              "r": "30% rain, 100% before",
-              "s": "Standing",
-              "sim": "10:55",
-              "wx": 1
-            },
-            {
-              "w": 11,
-              "d": "2026-11-24",
-              "track": "Summit Point Raceway - Summit Point Raceway",
-              "t": 19,
-              "r": "dry, slight before",
-              "s": "Standing",
-              "sim": "12:00",
-              "wx": 1
-            },
-            {
-              "w": 12,
-              "d": "2026-12-01",
-              "track": "Circuit de Spa-Francorchamps - Grand Prix Pits",
-              "t": 19,
-              "r": "dry",
-              "s": "Standing",
-              "sim": "12:00",
-              "wx": 1
-            }
-          ]
-        },
-        {
-          "id": "Caterham 420R Cup",
-          "name": "Caterham 420R Cup",
-          "sourceName": "Caterham 420R Cup",
-          "tags": [],
-          "ringMeister": false,
-          "weeks": [
-            {
-              "w": 1,
-              "d": "2026-09-15",
-              "track": "Oulton Park Circuit - International",
-              "t": 23,
-              "r": "dry",
-              "s": "Standing",
-              "sim": "13:35",
-              "wx": 1
-            },
-            {
-              "w": 2,
-              "d": "2026-09-22",
-              "track": "Donington Park Racing Circuit - National",
-              "t": 21,
-              "r": "dry",
-              "s": "Standing",
-              "sim": "12:00",
-              "wx": 1
-            },
-            {
-              "w": 3,
-              "d": "2026-09-29",
-              "track": "Circuit Zandvoort - Grand Prix",
-              "t": 21,
-              "r": "dry",
-              "s": "Standing",
-              "sim": "10:10",
-              "wx": 1
-            },
-            {
-              "w": 4,
-              "d": "2026-10-06",
-              "track": "Snetterton Circuit - 200",
-              "t": 22,
-              "r": "dry",
-              "s": "Standing",
-              "sim": "13:30",
-              "wx": 1
-            },
-            {
-              "w": 5,
-              "d": "2026-10-13",
-              "track": "Rudskogen Motorsenter",
-              "t": 19,
-              "r": "dry",
-              "s": "Standing",
-              "sim": "12:00",
-              "wx": 1
-            },
-            {
-              "w": 6,
-              "d": "2026-10-20",
-              "track": "Brands Hatch Circuit - Grand Prix",
-              "t": 20,
-              "r": "dry",
-              "s": "Standing",
-              "sim": "10:20",
-              "wx": 1
-            },
-            {
-              "w": 7,
-              "d": "2026-10-27",
-              "track": "Motorsport Arena Oschersleben - Grand Prix",
-              "t": 19,
-              "r": "dry",
-              "s": "Standing",
-              "sim": "12:50",
-              "wx": 1
-            },
-            {
-              "w": 8,
-              "d": "2026-11-03",
-              "track": "Knockhill Racing Circuit - International",
-              "t": 19,
-              "r": "dry",
-              "s": "Standing",
-              "sim": "12:00",
-              "wx": 1
-            },
-            {
-              "w": 9,
-              "d": "2026-11-10",
-              "track": "Silverstone Circuit - International",
-              "t": 19,
-              "r": "dry",
-              "s": "Standing",
-              "sim": "11:00",
-              "wx": 1
-            },
-            {
-              "w": 10,
-              "d": "2026-11-17",
-              "track": "Hockenheimring Baden-W\u00fcrttemberg - Grand Prix",
-              "t": 19,
-              "r": "slight rain, slight before",
-              "s": "Standing",
-              "sim": "13:40",
-              "wx": 1
-            },
-            {
-              "w": 11,
-              "d": "2026-11-24",
-              "track": "N\u00fcrburgring Grand-Prix-Strecke - Sprintstrecke",
-              "t": 18,
-              "r": "97% rain, 99% before",
-              "s": "Standing",
-              "sim": "12:00",
-              "wx": 1
-            },
-            {
-              "w": 12,
-              "d": "2026-12-01",
-              "track": "Circuit de Spa-Francorchamps - Grand Prix Pits",
-              "t": 19,
-              "r": "dry",
-              "s": "Standing",
-              "sim": "09:45",
-              "wx": 1
-            }
-          ]
-        },
-        {
-          "id": "Creventic Endurance Series",
-          "name": "Creventic Endurance Series",
-          "sourceName": "Creventic Endurance Series",
-          "tags": [],
-          "ringMeister": false,
-          "weeks": [
-            {
-              "w": 1,
-              "d": "2026-06-13",
-              "track": "Autodromo Internazionale del Mugello - Grand Prix",
-              "t": 20,
-              "r": "100% rain",
-              "s": "Rolling",
-              "sim": "12:00"
-            },
-            {
-              "w": 2,
-              "d": "2026-07-18",
-              "track": "Circuit de Spa-Francorchamps - Grand Prix Pits",
-              "t": 20,
-              "r": "41% rain",
-              "s": "Rolling",
-              "sim": "12:00"
-            },
-            {
-              "w": 3,
-              "d": "2026-08-15",
-              "track": "Circuit de Barcelona Catalunya - Historic",
-              "t": 31,
-              "r": "dry",
-              "s": "Rolling",
-              "sim": "12:00"
-            },
-            {
-              "w": 4,
-              "d": "2026-09-12",
-              "track": "N\u00fcrburgring Grand-Prix-Strecke - BES/WEC",
-              "t": 19,
-              "r": "42% rain",
-              "s": "Rolling",
-              "sim": "12:00"
-            },
-            {
-              "w": 5,
-              "d": "2026-09-26",
-              "track": "Circuit de Barcelona Catalunya - Historic",
-              "t": 27,
-              "r": "dry",
-              "s": "Rolling",
-              "sim": "12:00"
-            }
-          ]
-        },
-        {
-          "id": "GT Endurance Series",
-          "name": "GT Endurance Series",
-          "sourceName": "GT Endurance Series by Simucube",
-          "tags": [],
-          "ringMeister": false,
-          "weeks": [
-            {
-              "w": 1,
-              "d": "2026-09-19",
-              "track": "Silverstone Circuit - Grand Prix",
-              "t": 20,
-              "r": "dry",
-              "s": "Rolling",
-              "sim": "13:30"
-            },
-            {
-              "w": 2,
-              "d": "2026-09-26",
-              "track": "Road Atlanta - Full Course",
-              "t": 22,
-              "r": "31% rain",
-              "s": "Rolling",
-              "sim": "13:55"
-            },
-            {
-              "w": 3,
-              "d": "2026-10-03",
-              "track": "Circuit Zandvoort - Grand Prix",
-              "t": 20,
-              "r": "dry",
-              "s": "Rolling",
-              "sim": "10:10"
-            },
-            {
-              "w": 4,
-              "d": "2026-10-10",
-              "track": "Mobility Resort Motegi - Grand Prix",
-              "t": 21,
-              "r": "dry",
-              "s": "Rolling",
-              "sim": "11:30"
-            },
-            {
-              "w": 5,
-              "d": "2026-10-17",
-              "track": "Indianapolis Motor Speedway - Road Course",
-              "t": 20,
-              "r": "dry",
-              "s": "Rolling",
-              "sim": "09:50"
-            },
-            {
-              "w": 6,
-              "d": "2026-10-24",
-              "track": "Shell V-Power Motorsport Park at The Bend - GT Circuit",
-              "t": 21,
-              "r": "dry",
-              "s": "Rolling",
-              "sim": "12:00"
-            },
-            {
-              "w": 7,
-              "d": "2026-10-31",
-              "track": "Circuit of the Americas - Grand Prix",
-              "t": 20,
-              "r": "32% rain",
-              "s": "Rolling",
-              "sim": "13:45"
-            },
-            {
-              "w": 8,
-              "d": "2026-11-07",
-              "track": "Circuit de Spa-Francorchamps - Grand Prix Pits",
-              "t": 19,
-              "r": "dry",
-              "s": "Rolling",
-              "sim": "10:40"
-            },
-            {
-              "w": 9,
-              "d": "2026-11-14",
-              "track": "Fuji International Speedway - Grand Prix",
-              "t": 19,
-              "r": "dry",
-              "s": "Rolling",
-              "sim": "08:15"
-            },
-            {
-              "w": 10,
-              "d": "2026-11-21",
-              "track": "Misano World Circuit Marco Simoncelli - Grand Prix",
-              "t": 20,
-              "r": "dry",
-              "s": "Rolling",
-              "sim": "12:00"
-            },
-            {
-              "w": 11,
-              "d": "2026-11-28",
-              "track": "Sebring International Raceway - International",
-              "t": 23,
-              "r": "dry",
-              "s": "Rolling",
-              "sim": "12:30"
-            },
-            {
-              "w": 12,
-              "d": "2026-12-05",
-              "track": "Suzuka International Racing Course - Grand Prix",
-              "t": 19,
-              "r": "29% rain",
-              "s": "Rolling",
-              "sim": "12:00"
-            }
-          ]
-        },
-        {
-          "id": "Ring Meister",
-          "name": "Ring Meister",
-          "sourceName": "Ring Meister by LVRY",
-          "tags": [],
-          "ringMeister": true,
-          "weeks": [
-            {
-              "w": 1,
-              "d": "2026-09-15",
-              "track": "N\u00fcrburgring Nordschleife - Industriefahrten",
-              "t": 19,
-              "r": "dry",
-              "s": "Rolling",
-              "sim": "13:45",
-              "car": "Caterham 420R"
-            },
-            {
-              "w": 2,
-              "d": "2026-09-22",
-              "track": "N\u00fcrburgring Nordschleife - Industriefahrten",
-              "t": 19,
-              "r": "dry",
-              "s": "Rolling",
-              "sim": "12:00",
-              "car": "Lotus 79"
-            },
-            {
-              "w": 3,
-              "d": "2026-09-29",
-              "track": "N\u00fcrburgring Nordschleife - Industriefahrten",
-              "t": 19,
-              "r": "dry",
-              "s": "Rolling",
-              "sim": "14:05",
-              "car": "SCCA Spec Racer Ford"
-            },
-            {
-              "w": 4,
-              "d": "2026-10-06",
-              "track": "N\u00fcrburgring Nordschleife - Industriefahrten",
-              "t": 19,
-              "r": "dry",
-              "s": "Rolling",
-              "sim": "12:00",
-              "car": "Ruf RT 12R Track"
-            },
-            {
-              "w": 5,
-              "d": "2026-10-13",
-              "track": "N\u00fcrburgring Nordschleife - Industriefahrten",
-              "t": 19,
-              "r": "dry",
-              "s": "Rolling",
-              "sim": "12:00",
-              "car": "Street Stock - Casino M2, Street Stock - Eagle T3, Street Stock - Panther C1"
-            },
-            {
-              "w": 6,
-              "d": "2026-10-20",
-              "track": "N\u00fcrburgring Nordschleife - Industriefahrten",
-              "t": 19,
-              "r": "dry",
-              "s": "Rolling",
-              "sim": "14:05",
-              "car": "Acura NSX GT3 EVO 22, Aston Martin Vantage GT3 EVO, Audi R8 LMS EVO II GT3, BMW M4 GT3 EVO, Chevrolet Corvette Z06 GT3.R, Ferrari 296 GT3, Ford Mustang GT3, Lamborghini Hurac\u00e1n GT3 EVO, McLaren 720S GT3 EVO, Mercedes-AMG GT3 2020, Porsche 911 GT3 R (992)"
-            },
-            {
-              "w": 7,
-              "d": "2026-10-27",
-              "track": "N\u00fcrburgring Nordschleife - Industriefahrten",
-              "t": 19,
-              "r": "dry",
-              "s": "Rolling",
-              "sim": "12:00",
-              "car": "Skip Barber Formula 2000"
-            },
-            {
-              "w": 8,
-              "d": "2026-11-03",
-              "track": "N\u00fcrburgring Nordschleife - Industriefahrten",
-              "t": 19,
-              "r": "dry",
-              "s": "Rolling",
-              "sim": "12:50",
-              "car": "Audi RS3 LMS Gen2 TCR, Honda Civic Type R TCR, Hyundai Elantra N TCR, Hyundai Veloster N TCR"
-            },
-            {
-              "w": 9,
-              "d": "2026-11-10",
-              "track": "N\u00fcrburgring Nordschleife - Industriefahrten",
-              "t": 19,
-              "r": "dry",
-              "s": "Rolling",
-              "sim": "12:00",
-              "car": "Aston Martin Vantage GT4, BMW M4 G82 GT4 Evo, Ford Mustang GT4, McLaren 570S GT4, Mercedes-AMG GT4, Porsche 718 Cayman GT4 Strict. Clubsport MR"
-            },
-            {
-              "w": 10,
-              "d": "2026-11-17",
-              "track": "N\u00fcrburgring Nordschleife - Industriefahrten",
-              "t": 19,
-              "r": "dry",
-              "s": "Rolling",
-              "sim": "13:05",
-              "car": "Formula Vee - Classic, Formula Vee - Conqueror, Formula Vee - Sabre"
-            },
-            {
-              "w": 11,
-              "d": "2026-11-24",
-              "track": "N\u00fcrburgring Nordschleife - Industriefahrten",
-              "t": 19,
-              "r": "dry",
-              "s": "Rolling",
-              "sim": "12:00",
-              "car": "Global Mazda MX-5 Cup"
-            },
-            {
-              "w": 12,
-              "d": "2026-12-01",
-              "track": "N\u00fcrburgring Nordschleife - Industriefahrten",
-              "t": 18,
-              "r": "dry",
-              "s": "Rolling",
-              "sim": "13:45",
-              "car": "Mini Stock"
-            }
-          ]
-        },
-        {
-          "id": "Global Endurance Tour",
-          "name": "Global Endurance Tour",
-          "sourceName": "Global Endurance Tour",
-          "tags": [],
-          "ringMeister": false,
-          "weeks": [
-            {
-              "w": 1,
-              "d": "2026-09-26",
-              "track": "Indianapolis Motor Speedway - Road Course",
-              "t": 22,
-              "r": "dry",
-              "s": "Rolling",
-              "sim": "09:15"
-            },
-            {
-              "w": 2,
-              "d": "2026-10-10",
-              "track": "Red Bull Ring - Grand Prix",
-              "t": 21,
-              "r": "dry",
-              "s": "Rolling",
-              "sim": "09:10"
-            },
-            {
-              "w": 3,
-              "d": "2026-10-24",
-              "track": "Circuit Gilles Villeneuve",
-              "t": 19,
-              "r": "dry",
-              "s": "Rolling",
-              "sim": "13:15"
-            },
-            {
-              "w": 4,
-              "d": "2026-11-07",
-              "track": "Aut\u00f3dromo Hermanos Rodr\u00edguez - Grand Prix",
-              "t": 22,
-              "r": "28% rain",
-              "s": "Rolling",
-              "sim": "12:00"
-            },
-            {
-              "w": 5,
-              "d": "2026-11-21",
-              "track": "Silverstone Circuit - Grand Prix",
-              "t": 19,
-              "r": "dry",
-              "s": "Rolling",
-              "sim": "11:00"
-            },
-            {
-              "w": 6,
-              "d": "2026-12-05",
-              "track": "Autodromo Nazionale Monza - Grand Prix",
-              "t": 19,
-              "r": "32% rain, 8% before",
-              "s": "Rolling",
-              "sim": "09:10"
             }
           ]
         },
@@ -1367,269 +385,315 @@
           ]
         },
         {
-          "id": "GT3 Challenge Fixed",
-          "name": "GT3 Challenge Fixed",
-          "sourceName": "GT3 Challenge Fixed by Fanatec",
-          "tags": [
-            "Fixed"
-          ],
+          "id": "IMSA iRacing Series Open",
+          "name": "IMSA iRacing Series Open",
+          "sourceName": "IMSA iRacing Series by GO Fast",
+          "tags": [],
           "ringMeister": false,
           "weeks": [
             {
               "w": 1,
               "d": "2026-09-15",
-              "track": "Silverstone Circuit - Grand Prix",
-              "t": 20,
+              "track": "Indianapolis Motor Speedway - Road Course",
+              "t": 22,
               "r": "dry",
               "s": "Rolling",
-              "sim": "13:30",
+              "sim": "09:20",
               "wx": 1
             },
             {
               "w": 2,
               "d": "2026-09-22",
               "track": "Road Atlanta - Full Course",
-              "t": 24,
-              "r": "35% rain, 2% before",
+              "t": 26,
+              "r": "dry, 3% before",
               "s": "Rolling",
-              "sim": "13:55",
+              "sim": "17:10",
               "wx": 1
             },
             {
               "w": 3,
               "d": "2026-09-29",
-              "track": "Circuit Zandvoort - Grand Prix",
-              "t": 19,
-              "r": "73% rain, 75% before",
+              "track": "Fuji International Speedway - Grand Prix",
+              "t": 22,
+              "r": "dry",
               "s": "Rolling",
-              "sim": "10:10",
+              "sim": "07:25",
               "wx": 1
             },
             {
               "w": 4,
               "d": "2026-10-06",
-              "track": "Mobility Resort Motegi - Grand Prix",
+              "track": "Red Bull Ring - Grand Prix",
               "t": 19,
-              "r": "100% rain, 100% before",
+              "r": "dry",
               "s": "Rolling",
-              "sim": "11:30",
+              "sim": "09:25",
               "wx": 1
             },
             {
               "w": 5,
               "d": "2026-10-13",
-              "track": "Indianapolis Motor Speedway - Road Course",
-              "t": 22,
+              "track": "Long Beach Street Circuit",
+              "t": 21,
               "r": "dry",
               "s": "Rolling",
-              "sim": "09:50",
+              "sim": "08:45",
               "wx": 1
             },
             {
               "w": 6,
               "d": "2026-10-20",
-              "track": "Shell V-Power Motorsport Park at The Bend - GT Circuit",
-              "t": 23,
+              "track": "Circuit Gilles Villeneuve",
+              "t": 20,
               "r": "dry",
               "s": "Rolling",
-              "sim": "11:30",
+              "sim": "13:20",
               "wx": 1
             },
             {
               "w": 7,
               "d": "2026-10-27",
-              "track": "Circuit of the Americas - Grand Prix",
-              "t": 25,
-              "r": "dry",
+              "track": "Circuit des 24 Heures du Mans - 24 Heures du Mans",
+              "t": 19,
+              "r": "37% rain, 27% before",
               "s": "Rolling",
-              "sim": "13:45",
+              "sim": "14:50",
               "wx": 1
             },
             {
               "w": 8,
               "d": "2026-11-03",
-              "track": "Circuit de Spa-Francorchamps - Grand Prix Pits",
-              "t": 18,
-              "r": "51% rain, 5% before",
+              "track": "Aut\u00f3dromo Hermanos Rodr\u00edguez - Grand Prix",
+              "t": 20,
+              "r": "95% rain, 96% before",
               "s": "Rolling",
-              "sim": "10:40",
+              "sim": "12:00",
               "wx": 1
             },
             {
               "w": 9,
               "d": "2026-11-10",
-              "track": "Fuji International Speedway - Grand Prix",
-              "t": 19,
-              "r": "dry",
+              "track": "Suzuka International Racing Course - Grand Prix",
+              "t": 20,
+              "r": "dry, 100% before",
               "s": "Rolling",
-              "sim": "08:15",
+              "sim": "14:20",
               "wx": 1
             },
             {
               "w": 10,
               "d": "2026-11-17",
-              "track": "Misano World Circuit Marco Simoncelli - Grand Prix",
+              "track": "Silverstone Circuit - Grand Prix",
               "t": 20,
               "r": "dry",
               "s": "Rolling",
-              "sim": "12:00",
+              "sim": "11:35",
               "wx": 1
             },
             {
               "w": 11,
               "d": "2026-11-24",
               "track": "Sebring International Raceway - International",
-              "t": 28,
+              "t": 27,
               "r": "dry",
               "s": "Rolling",
-              "sim": "12:30",
+              "sim": "16:10",
               "wx": 1
             },
             {
               "w": 12,
               "d": "2026-12-01",
-              "track": "Suzuka International Racing Course - Grand Prix",
-              "t": 22,
-              "r": "dry",
+              "track": "Autodromo Nazionale Monza - Grand Prix",
+              "t": 19,
+              "r": "8% rain, 17% before",
               "s": "Rolling",
-              "sim": "12:00",
+              "sim": "09:10",
               "wx": 1
             }
           ]
         },
         {
-          "id": "iRacing DTM Series",
-          "name": "iRacing DTM Series",
-          "sourceName": "iRacing DTM Series",
-          "tags": [],
-          "ringMeister": false,
-          "weeks": [
-            {
-              "w": 1,
-              "d": "2026-04-23",
-              "track": "Red Bull Ring - Grand Prix",
-              "t": 21,
-              "r": "dry",
-              "s": "Rolling",
-              "sim": "13:35"
-            },
-            {
-              "w": 2,
-              "d": "2026-05-21",
-              "track": "Circuit Zandvoort - Grand Prix",
-              "t": 19,
-              "r": "13% rain",
-              "s": "Rolling",
-              "sim": "13:55"
-            },
-            {
-              "w": 3,
-              "d": "2026-06-18",
-              "track": "Circuit de Spa-Francorchamps - Grand Prix Pits",
-              "t": 20,
-              "r": "dry",
-              "s": "Rolling",
-              "sim": "07:50"
-            },
-            {
-              "w": 4,
-              "d": "2026-07-02",
-              "track": "Brands Hatch Circuit - Grand Prix",
-              "t": 20,
-              "r": "34% rain",
-              "s": "Rolling",
-              "sim": "13:55"
-            },
-            {
-              "w": 5,
-              "d": "2026-07-23",
-              "track": "Motorsport Arena Oschersleben - Grand Prix",
-              "t": 20,
-              "r": "dry",
-              "s": "Rolling",
-              "sim": "07:50"
-            },
-            {
-              "w": 6,
-              "d": "2026-08-13",
-              "track": "N\u00fcrburgring Grand-Prix-Strecke - Sprintstrecke",
-              "t": 22,
-              "r": "dry",
-              "s": "Rolling",
-              "sim": "14:15"
-            },
-            {
-              "w": 7,
-              "d": "2026-09-10",
-              "track": "Sachsenring",
-              "t": 23,
-              "r": "dry",
-              "s": "Rolling",
-              "sim": "12:00"
-            },
-            {
-              "w": 8,
-              "d": "2026-10-08",
-              "track": "Hockenheimring Baden-W\u00fcrttemberg - Grand Prix",
-              "t": 19,
-              "r": "13% rain",
-              "s": "Rolling",
-              "sim": "13:25"
-            }
-          ]
-        },
-        {
-          "id": "GT3 Regional Americas",
-          "name": "GT3 Regional Americas",
-          "sourceName": "iRacing GT3 Regional Tour by Sensit! - Americas",
+          "id": "Advanced Mazda MX-5 Cup",
+          "name": "Advanced Mazda MX-5 Cup",
+          "sourceName": "Advanced Mazda MX-5 Cup by Heusinkveld",
           "tags": [],
           "ringMeister": false,
           "weeks": [
             {
               "w": 1,
               "d": "2026-09-15",
-              "track": "Road America - Full Course",
-              "t": 19,
-              "r": "31% rain, 100% before",
-              "s": "Rolling",
-              "sim": "08:30",
+              "track": "Daytona International Speedway - Road Course",
+              "t": 28,
+              "r": "dry",
+              "s": "Standing",
+              "sim": "20:15",
               "wx": 1
             },
             {
               "w": 2,
               "d": "2026-09-22",
-              "track": "Watkins Glen International - Boot",
-              "t": 29,
-              "r": "dry",
-              "s": "Rolling",
+              "track": "Okayama International Circuit - Full Course",
+              "t": 22,
+              "r": "6% rain, 100% before",
+              "s": "Standing",
               "sim": "12:00",
               "wx": 1
             },
             {
               "w": 3,
               "d": "2026-09-29",
-              "track": "Mid-Ohio Sports Car Course - Full Course",
-              "t": 23,
+              "track": "Knockhill Racing Circuit - International",
+              "t": 19,
               "r": "dry",
-              "s": "Rolling",
-              "sim": "13:40",
+              "s": "Standing",
+              "sim": "12:00",
               "wx": 1
             },
             {
               "w": 4,
               "d": "2026-10-06",
-              "track": "Canadian Tire Motorsports Park",
-              "t": 20,
+              "track": "Long Beach Street Circuit",
+              "t": 21,
               "r": "dry",
-              "s": "Rolling",
-              "sim": "13:25",
+              "s": "Standing",
+              "sim": "13:05",
               "wx": 1
             },
             {
               "w": 5,
               "d": "2026-10-13",
-              "track": "Daytona International Speedway - Road Course",
-              "t": 25,
+              "track": "Phillip Island Circuit",
+              "t": 20,
+              "r": "2% rain, 24% before",
+              "s": "Standing",
+              "sim": "17:15",
+              "wx": 1
+            },
+            {
+              "w": 6,
+              "d": "2026-10-20",
+              "track": "Mount Panorama Circuit",
+              "t": 19,
+              "r": "41% rain, dry before",
+              "s": "Standing",
+              "sim": "07:50",
+              "wx": 1
+            },
+            {
+              "w": 7,
+              "d": "2026-10-27",
+              "track": "Hockenheimring Baden-W\u00fcrttemberg - National A",
+              "t": 19,
+              "r": "17% rain, slight before",
+              "s": "Standing",
+              "sim": "12:00",
+              "wx": 1
+            },
+            {
+              "w": 8,
+              "d": "2026-11-03",
+              "track": "Charlotte Motor Speedway - Roval 2019",
+              "t": 19,
+              "r": "dry",
+              "s": "Standing",
+              "sim": "14:55",
+              "wx": 1
+            },
+            {
+              "w": 9,
+              "d": "2026-11-10",
+              "track": "Circuit de Barcelona Catalunya - National",
+              "t": 19,
+              "r": "dry",
+              "s": "Standing",
+              "sim": "12:00",
+              "wx": 1
+            },
+            {
+              "w": 10,
+              "d": "2026-11-17",
+              "track": "Brands Hatch Circuit - Grand Prix",
+              "t": 19,
+              "r": "30% rain, 100% before",
+              "s": "Standing",
+              "sim": "10:55",
+              "wx": 1
+            },
+            {
+              "w": 11,
+              "d": "2026-11-24",
+              "track": "Summit Point Raceway - Summit Point Raceway",
+              "t": 19,
+              "r": "dry, slight before",
+              "s": "Standing",
+              "sim": "12:00",
+              "wx": 1
+            },
+            {
+              "w": 12,
+              "d": "2026-12-01",
+              "track": "Circuit de Spa-Francorchamps - Grand Prix Pits",
+              "t": 19,
+              "r": "dry",
+              "s": "Standing",
+              "sim": "12:00",
+              "wx": 1
+            }
+          ]
+        },
+        {
+          "id": "Toyota GR86 Cup",
+          "name": "Toyota GR86 Cup",
+          "sourceName": "Toyota GR86 Cup by SIMAGIC",
+          "tags": [],
+          "ringMeister": false,
+          "weeks": [
+            {
+              "w": 1,
+              "d": "2026-09-15",
+              "track": "Oulton Park Circuit - Fosters",
+              "t": 20,
+              "r": "dry",
+              "s": "Rolling",
+              "sim": "12:00",
+              "wx": 1
+            },
+            {
+              "w": 2,
+              "d": "2026-09-22",
+              "track": "Barber Motorsports Park",
+              "t": 23,
+              "r": "dry",
+              "s": "Rolling",
+              "sim": "08:15",
+              "wx": 1
+            },
+            {
+              "w": 3,
+              "d": "2026-09-29",
+              "track": "Circuit de Spa-Francorchamps - Grand Prix Pits",
+              "t": 20,
+              "r": "dry",
+              "s": "Rolling",
+              "sim": "16:25",
+              "wx": 1
+            },
+            {
+              "w": 4,
+              "d": "2026-10-06",
+              "track": "Indianapolis Motor Speedway - Road Course",
+              "t": 20,
+              "r": "15% rain, slight before",
+              "s": "Rolling",
+              "sim": "15:15",
+              "wx": 1
+            },
+            {
+              "w": 5,
+              "d": "2026-10-13",
+              "track": "Tsukuba Circuit - 2000 Full",
+              "t": 23,
               "r": "dry",
               "s": "Rolling",
               "sim": "12:00",
@@ -1638,71 +702,71 @@
             {
               "w": 6,
               "d": "2026-10-20",
-              "track": "Sonoma Raceway - Cup Long",
-              "t": 19,
-              "r": "4% rain, 4% before",
+              "track": "Daytona International Speedway - Road Course",
+              "t": 23,
+              "r": "dry",
               "s": "Rolling",
-              "sim": "09:25",
+              "sim": "19:35",
               "wx": 1
             },
             {
               "w": 7,
               "d": "2026-10-27",
-              "track": "Virginia International Raceway - Full Course",
-              "t": 20,
+              "track": "WeatherTech Raceway at Laguna Seca - 2026",
+              "t": 21,
               "r": "dry",
               "s": "Rolling",
-              "sim": "12:00",
+              "sim": "09:25",
               "wx": 1
             },
             {
               "w": 8,
               "d": "2026-11-03",
-              "track": "Sebring International Raceway - International",
-              "t": 23,
-              "r": "dry, 52% before",
+              "track": "Snetterton Circuit - 300",
+              "t": 19,
+              "r": "dry",
               "s": "Rolling",
-              "sim": "12:25",
+              "sim": "12:10",
               "wx": 1
             },
             {
               "w": 9,
               "d": "2026-11-10",
-              "track": "Circuit of the Americas - Grand Prix",
-              "t": 25,
+              "track": "Road Atlanta - Full Course",
+              "t": 20,
               "r": "dry",
               "s": "Rolling",
-              "sim": "12:00",
+              "sim": "15:05",
               "wx": 1
             },
             {
               "w": 10,
               "d": "2026-11-17",
-              "track": "Aut\u00f3dromo Hermanos Rodr\u00edguez - Grand Prix",
+              "track": "Circuit Zandvoort - Grand Prix",
               "t": 19,
-              "r": "11% rain, 16% before",
+              "r": "dry",
               "s": "Rolling",
-              "sim": "08:25",
+              "sim": "09:35",
               "wx": 1
             },
             {
               "w": 11,
               "d": "2026-11-24",
-              "track": "WeatherTech Raceway at Laguna Seca - 2026",
-              "t": 20,
-              "r": "dry",
+              "track": "Lime Rock Park - Grand Prix",
+              "t": 18,
+              "r": "10% rain, 100% before",
               "s": "Rolling",
-              "sim": "12:00",
+              "sim": "16:50",
               "wx": 1
             },
             {
               "w": 12,
               "d": "2026-12-01",
-              "track": "Aut\u00f3dromo Jos\u00e9 Carlos Pace - Grand Prix",
-              "t": 24,
+              "track": "Road America - Short West",
+              "t": 18,
               "r": "dry",
               "s": "Rolling",
-              "sim": "14:15",
+              "sim": "08:30",
               "wx": 1
             }
           ]
@@ -1830,6 +894,135 @@
               "track": "Algarve International Circuit - Grand Prix",
               "t": 25,
               "r": "slight rain, dry before",
+              "s": "Rolling",
+              "sim": "14:15",
+              "wx": 1
+            }
+          ]
+        },
+        {
+          "id": "GT3 Regional Americas",
+          "name": "GT3 Regional Americas",
+          "sourceName": "iRacing GT3 Regional Tour by Sensit! - Americas",
+          "tags": [],
+          "ringMeister": false,
+          "weeks": [
+            {
+              "w": 1,
+              "d": "2026-09-15",
+              "track": "Road America - Full Course",
+              "t": 19,
+              "r": "31% rain, 100% before",
+              "s": "Rolling",
+              "sim": "08:30",
+              "wx": 1
+            },
+            {
+              "w": 2,
+              "d": "2026-09-22",
+              "track": "Watkins Glen International - Boot",
+              "t": 29,
+              "r": "dry",
+              "s": "Rolling",
+              "sim": "12:00",
+              "wx": 1
+            },
+            {
+              "w": 3,
+              "d": "2026-09-29",
+              "track": "Mid-Ohio Sports Car Course - Full Course",
+              "t": 23,
+              "r": "dry",
+              "s": "Rolling",
+              "sim": "13:40",
+              "wx": 1
+            },
+            {
+              "w": 4,
+              "d": "2026-10-06",
+              "track": "Canadian Tire Motorsports Park",
+              "t": 20,
+              "r": "dry",
+              "s": "Rolling",
+              "sim": "13:25",
+              "wx": 1
+            },
+            {
+              "w": 5,
+              "d": "2026-10-13",
+              "track": "Daytona International Speedway - Road Course",
+              "t": 25,
+              "r": "dry",
+              "s": "Rolling",
+              "sim": "12:00",
+              "wx": 1
+            },
+            {
+              "w": 6,
+              "d": "2026-10-20",
+              "track": "Sonoma Raceway - Cup Long",
+              "t": 19,
+              "r": "4% rain, 4% before",
+              "s": "Rolling",
+              "sim": "09:25",
+              "wx": 1
+            },
+            {
+              "w": 7,
+              "d": "2026-10-27",
+              "track": "Virginia International Raceway - Full Course",
+              "t": 20,
+              "r": "dry",
+              "s": "Rolling",
+              "sim": "12:00",
+              "wx": 1
+            },
+            {
+              "w": 8,
+              "d": "2026-11-03",
+              "track": "Sebring International Raceway - International",
+              "t": 23,
+              "r": "dry, 52% before",
+              "s": "Rolling",
+              "sim": "12:25",
+              "wx": 1
+            },
+            {
+              "w": 9,
+              "d": "2026-11-10",
+              "track": "Circuit of the Americas - Grand Prix",
+              "t": 25,
+              "r": "dry",
+              "s": "Rolling",
+              "sim": "12:00",
+              "wx": 1
+            },
+            {
+              "w": 10,
+              "d": "2026-11-17",
+              "track": "Aut\u00f3dromo Hermanos Rodr\u00edguez - Grand Prix",
+              "t": 19,
+              "r": "11% rain, 16% before",
+              "s": "Rolling",
+              "sim": "08:25",
+              "wx": 1
+            },
+            {
+              "w": 11,
+              "d": "2026-11-24",
+              "track": "WeatherTech Raceway at Laguna Seca - 2026",
+              "t": 20,
+              "r": "dry",
+              "s": "Rolling",
+              "sim": "12:00",
+              "wx": 1
+            },
+            {
+              "w": 12,
+              "d": "2026-12-01",
+              "track": "Aut\u00f3dromo Jos\u00e9 Carlos Pace - Grand Prix",
+              "t": 24,
+              "r": "dry",
               "s": "Rolling",
               "sim": "14:15",
               "wx": 1
@@ -1966,88 +1159,217 @@
           ]
         },
         {
-          "id": "IMSA iRacing Series Open",
-          "name": "IMSA iRacing Series Open",
-          "sourceName": "IMSA iRacing Series by GO Fast",
+          "id": "Caterham 420R Cup",
+          "name": "Caterham 420R Cup",
+          "sourceName": "Caterham 420R Cup",
           "tags": [],
           "ringMeister": false,
           "weeks": [
             {
               "w": 1,
               "d": "2026-09-15",
-              "track": "Indianapolis Motor Speedway - Road Course",
-              "t": 22,
+              "track": "Oulton Park Circuit - International",
+              "t": 23,
               "r": "dry",
-              "s": "Rolling",
-              "sim": "09:20",
+              "s": "Standing",
+              "sim": "13:35",
               "wx": 1
             },
             {
               "w": 2,
               "d": "2026-09-22",
-              "track": "Road Atlanta - Full Course",
-              "t": 26,
-              "r": "dry, 3% before",
-              "s": "Rolling",
-              "sim": "17:10",
+              "track": "Donington Park Racing Circuit - National",
+              "t": 21,
+              "r": "dry",
+              "s": "Standing",
+              "sim": "12:00",
               "wx": 1
             },
             {
               "w": 3,
               "d": "2026-09-29",
-              "track": "Fuji International Speedway - Grand Prix",
-              "t": 22,
+              "track": "Circuit Zandvoort - Grand Prix",
+              "t": 21,
               "r": "dry",
-              "s": "Rolling",
-              "sim": "07:25",
+              "s": "Standing",
+              "sim": "10:10",
               "wx": 1
             },
             {
               "w": 4,
               "d": "2026-10-06",
-              "track": "Red Bull Ring - Grand Prix",
-              "t": 19,
+              "track": "Snetterton Circuit - 200",
+              "t": 22,
               "r": "dry",
-              "s": "Rolling",
-              "sim": "09:25",
+              "s": "Standing",
+              "sim": "13:30",
               "wx": 1
             },
             {
               "w": 5,
               "d": "2026-10-13",
-              "track": "Long Beach Street Circuit",
-              "t": 21,
+              "track": "Rudskogen Motorsenter",
+              "t": 19,
               "r": "dry",
-              "s": "Rolling",
-              "sim": "08:45",
+              "s": "Standing",
+              "sim": "12:00",
               "wx": 1
             },
             {
               "w": 6,
               "d": "2026-10-20",
-              "track": "Circuit Gilles Villeneuve",
+              "track": "Brands Hatch Circuit - Grand Prix",
               "t": 20,
+              "r": "dry",
+              "s": "Standing",
+              "sim": "10:20",
+              "wx": 1
+            },
+            {
+              "w": 7,
+              "d": "2026-10-27",
+              "track": "Motorsport Arena Oschersleben - Grand Prix",
+              "t": 19,
+              "r": "dry",
+              "s": "Standing",
+              "sim": "12:50",
+              "wx": 1
+            },
+            {
+              "w": 8,
+              "d": "2026-11-03",
+              "track": "Knockhill Racing Circuit - International",
+              "t": 19,
+              "r": "dry",
+              "s": "Standing",
+              "sim": "12:00",
+              "wx": 1
+            },
+            {
+              "w": 9,
+              "d": "2026-11-10",
+              "track": "Silverstone Circuit - International",
+              "t": 19,
+              "r": "dry",
+              "s": "Standing",
+              "sim": "11:00",
+              "wx": 1
+            },
+            {
+              "w": 10,
+              "d": "2026-11-17",
+              "track": "Hockenheimring Baden-W\u00fcrttemberg - Grand Prix",
+              "t": 19,
+              "r": "slight rain, slight before",
+              "s": "Standing",
+              "sim": "13:40",
+              "wx": 1
+            },
+            {
+              "w": 11,
+              "d": "2026-11-24",
+              "track": "N\u00fcrburgring Grand-Prix-Strecke - Sprintstrecke",
+              "t": 18,
+              "r": "97% rain, 99% before",
+              "s": "Standing",
+              "sim": "12:00",
+              "wx": 1
+            },
+            {
+              "w": 12,
+              "d": "2026-12-01",
+              "track": "Circuit de Spa-Francorchamps - Grand Prix Pits",
+              "t": 19,
+              "r": "dry",
+              "s": "Standing",
+              "sim": "09:45",
+              "wx": 1
+            }
+          ]
+        },
+        {
+          "id": "Production Car Challenge",
+          "name": "Production Car Challenge",
+          "sourceName": "Production Car Challenge by Sim-Lab",
+          "tags": [],
+          "ringMeister": false,
+          "weeks": [
+            {
+              "w": 1,
+              "d": "2026-09-15",
+              "track": "Hockenheimring Baden-W\u00fcrttemberg - Outer",
+              "t": 19,
+              "r": "dry",
+              "s": "Rolling",
+              "sim": "09:15",
+              "wx": 1
+            },
+            {
+              "w": 2,
+              "d": "2026-09-22",
+              "track": "Autodromo Nazionale Monza - GP without first chicane",
+              "t": 25,
+              "r": "dry",
+              "s": "Rolling",
+              "sim": "12:00",
+              "wx": 1
+            },
+            {
+              "w": 3,
+              "d": "2026-09-29",
+              "track": "Snetterton Circuit - 300",
+              "t": 20,
+              "r": "7% rain, 3% before",
+              "s": "Rolling",
+              "sim": "13:25",
+              "wx": 1
+            },
+            {
+              "w": 4,
+              "d": "2026-10-06",
+              "track": "Motorsport Arena Oschersleben - Grand Prix",
+              "t": 19,
+              "r": "dry",
+              "s": "Rolling",
+              "sim": "10:00",
+              "wx": 1
+            },
+            {
+              "w": 5,
+              "d": "2026-10-13",
+              "track": "Silverstone Circuit - International",
+              "t": 20,
+              "r": "dry",
+              "s": "Rolling",
+              "sim": "12:00",
+              "wx": 1
+            },
+            {
+              "w": 6,
+              "d": "2026-10-20",
+              "track": "N\u00fcrburgring Grand-Prix-Strecke - Kurzanbindung w/out Arena",
+              "t": 19,
+              "r": "dry",
+              "s": "Rolling",
+              "sim": "14:05",
+              "wx": 1
+            },
+            {
+              "w": 7,
+              "d": "2026-10-27",
+              "track": "Circuito de Navarra - Speed Circuit",
+              "t": 19,
               "r": "dry",
               "s": "Rolling",
               "sim": "13:20",
               "wx": 1
             },
             {
-              "w": 7,
-              "d": "2026-10-27",
-              "track": "Circuit des 24 Heures du Mans - 24 Heures du Mans",
-              "t": 19,
-              "r": "37% rain, 27% before",
-              "s": "Rolling",
-              "sim": "14:50",
-              "wx": 1
-            },
-            {
               "w": 8,
               "d": "2026-11-03",
-              "track": "Aut\u00f3dromo Hermanos Rodr\u00edguez - Grand Prix",
-              "t": 20,
-              "r": "95% rain, 96% before",
+              "track": "Sonoma Raceway - Cup Long",
+              "t": 23,
+              "r": "dry",
               "s": "Rolling",
               "sim": "12:00",
               "wx": 1
@@ -2055,42 +1377,720 @@
             {
               "w": 9,
               "d": "2026-11-10",
-              "track": "Suzuka International Racing Course - Grand Prix",
+              "track": "Circuit des 24 Heures du Mans - Historic",
               "t": 20,
-              "r": "dry, 100% before",
+              "r": "dry",
               "s": "Rolling",
-              "sim": "14:20",
+              "sim": "09:45",
               "wx": 1
             },
             {
               "w": 10,
               "d": "2026-11-17",
-              "track": "Silverstone Circuit - Grand Prix",
-              "t": 20,
-              "r": "dry",
+              "track": "Summit Point Raceway - Summit Point Raceway",
+              "t": 18,
+              "r": "14% rain, 100% before",
               "s": "Rolling",
-              "sim": "11:35",
+              "sim": "14:15",
               "wx": 1
             },
             {
               "w": 11,
               "d": "2026-11-24",
-              "track": "Sebring International Raceway - International",
-              "t": 27,
+              "track": "Watkins Glen International - Classic Boot",
+              "t": 19,
               "r": "dry",
               "s": "Rolling",
-              "sim": "16:10",
+              "sim": "17:05",
               "wx": 1
             },
             {
               "w": 12,
               "d": "2026-12-01",
+              "track": "Oulton Park Circuit - Island Historic",
+              "t": 19,
+              "r": "dry",
+              "s": "Rolling",
+              "sim": "15:50",
+              "wx": 1
+            }
+          ]
+        },
+        {
+          "id": "GT Endurance Series",
+          "name": "GT Endurance Series",
+          "sourceName": "GT Endurance Series by Simucube",
+          "tags": [],
+          "ringMeister": false,
+          "weeks": [
+            {
+              "w": 1,
+              "d": "2026-09-19",
+              "track": "Silverstone Circuit - Grand Prix",
+              "t": 20,
+              "r": "dry",
+              "s": "Rolling",
+              "sim": "13:30"
+            },
+            {
+              "w": 2,
+              "d": "2026-09-26",
+              "track": "Road Atlanta - Full Course",
+              "t": 22,
+              "r": "31% rain",
+              "s": "Rolling",
+              "sim": "13:55"
+            },
+            {
+              "w": 3,
+              "d": "2026-10-03",
+              "track": "Circuit Zandvoort - Grand Prix",
+              "t": 20,
+              "r": "dry",
+              "s": "Rolling",
+              "sim": "10:10"
+            },
+            {
+              "w": 4,
+              "d": "2026-10-10",
+              "track": "Mobility Resort Motegi - Grand Prix",
+              "t": 21,
+              "r": "dry",
+              "s": "Rolling",
+              "sim": "11:30"
+            },
+            {
+              "w": 5,
+              "d": "2026-10-17",
+              "track": "Indianapolis Motor Speedway - Road Course",
+              "t": 20,
+              "r": "dry",
+              "s": "Rolling",
+              "sim": "09:50"
+            },
+            {
+              "w": 6,
+              "d": "2026-10-24",
+              "track": "Shell V-Power Motorsport Park at The Bend - GT Circuit",
+              "t": 21,
+              "r": "dry",
+              "s": "Rolling",
+              "sim": "12:00"
+            },
+            {
+              "w": 7,
+              "d": "2026-10-31",
+              "track": "Circuit of the Americas - Grand Prix",
+              "t": 20,
+              "r": "32% rain",
+              "s": "Rolling",
+              "sim": "13:45"
+            },
+            {
+              "w": 8,
+              "d": "2026-11-07",
+              "track": "Circuit de Spa-Francorchamps - Grand Prix Pits",
+              "t": 19,
+              "r": "dry",
+              "s": "Rolling",
+              "sim": "10:40"
+            },
+            {
+              "w": 9,
+              "d": "2026-11-14",
+              "track": "Fuji International Speedway - Grand Prix",
+              "t": 19,
+              "r": "dry",
+              "s": "Rolling",
+              "sim": "08:15"
+            },
+            {
+              "w": 10,
+              "d": "2026-11-21",
+              "track": "Misano World Circuit Marco Simoncelli - Grand Prix",
+              "t": 20,
+              "r": "dry",
+              "s": "Rolling",
+              "sim": "12:00"
+            },
+            {
+              "w": 11,
+              "d": "2026-11-28",
+              "track": "Sebring International Raceway - International",
+              "t": 23,
+              "r": "dry",
+              "s": "Rolling",
+              "sim": "12:30"
+            },
+            {
+              "w": 12,
+              "d": "2026-12-05",
+              "track": "Suzuka International Racing Course - Grand Prix",
+              "t": 19,
+              "r": "29% rain",
+              "s": "Rolling",
+              "sim": "12:00"
+            }
+          ]
+        },
+        {
+          "id": "Global Endurance Tour",
+          "name": "Global Endurance Tour",
+          "sourceName": "Global Endurance Tour",
+          "tags": [],
+          "ringMeister": false,
+          "weeks": [
+            {
+              "w": 1,
+              "d": "2026-09-26",
+              "track": "Indianapolis Motor Speedway - Road Course",
+              "t": 22,
+              "r": "dry",
+              "s": "Rolling",
+              "sim": "09:15"
+            },
+            {
+              "w": 2,
+              "d": "2026-10-10",
+              "track": "Red Bull Ring - Grand Prix",
+              "t": 21,
+              "r": "dry",
+              "s": "Rolling",
+              "sim": "09:10"
+            },
+            {
+              "w": 3,
+              "d": "2026-10-24",
+              "track": "Circuit Gilles Villeneuve",
+              "t": 19,
+              "r": "dry",
+              "s": "Rolling",
+              "sim": "13:15"
+            },
+            {
+              "w": 4,
+              "d": "2026-11-07",
+              "track": "Aut\u00f3dromo Hermanos Rodr\u00edguez - Grand Prix",
+              "t": 22,
+              "r": "28% rain",
+              "s": "Rolling",
+              "sim": "12:00"
+            },
+            {
+              "w": 5,
+              "d": "2026-11-21",
+              "track": "Silverstone Circuit - Grand Prix",
+              "t": 19,
+              "r": "dry",
+              "s": "Rolling",
+              "sim": "11:00"
+            },
+            {
+              "w": 6,
+              "d": "2026-12-05",
               "track": "Autodromo Nazionale Monza - Grand Prix",
               "t": 19,
-              "r": "8% rain, 17% before",
+              "r": "32% rain, 8% before",
               "s": "Rolling",
-              "sim": "09:10",
-              "wx": 1
+              "sim": "09:10"
+            }
+          ]
+        },
+        {
+          "id": "Track Day",
+          "name": "Track Day",
+          "sourceName": "Track Day",
+          "tags": [],
+          "ringMeister": false,
+          "weeks": [
+            {
+              "w": 1,
+              "d": "2026-09-15",
+              "track": "Summit Point Raceway - Summit Point Raceway",
+              "t": null,
+              "r": "constant weather",
+              "s": "Standing",
+              "sim": "12:00"
+            },
+            {
+              "w": 2,
+              "d": "2026-09-22",
+              "track": "Okayama International Circuit - Full Course",
+              "t": null,
+              "r": "constant weather",
+              "s": "Standing",
+              "sim": "12:00"
+            },
+            {
+              "w": 3,
+              "d": "2026-09-29",
+              "track": "Oulton Park Circuit - International",
+              "t": null,
+              "r": "constant weather",
+              "s": "Standing",
+              "sim": "16:25"
+            },
+            {
+              "w": 4,
+              "d": "2026-10-06",
+              "track": "Shell V-Power Motorsport Park at The Bend - West Plus Circuit",
+              "t": null,
+              "r": "constant weather",
+              "s": "Standing",
+              "sim": "10:30"
+            },
+            {
+              "w": 5,
+              "d": "2026-10-13",
+              "track": "Rudskogen Motorsenter",
+              "t": null,
+              "r": "constant weather",
+              "s": "Standing",
+              "sim": "13:50"
+            },
+            {
+              "w": 6,
+              "d": "2026-10-20",
+              "track": "WeatherTech Raceway at Laguna Seca - 2026",
+              "t": null,
+              "r": "constant weather",
+              "s": "Standing",
+              "sim": "16:45"
+            },
+            {
+              "w": 7,
+              "d": "2026-10-27",
+              "track": "Motorsport Arena Oschersleben - Grand Prix",
+              "t": null,
+              "r": "constant weather",
+              "s": "Standing",
+              "sim": "12:00"
+            },
+            {
+              "w": 8,
+              "d": "2026-11-03",
+              "track": "MotorLand Arag\u00f3n - National",
+              "t": null,
+              "r": "constant weather",
+              "s": "Standing",
+              "sim": "13:20"
+            },
+            {
+              "w": 9,
+              "d": "2026-11-10",
+              "track": "Circuit Zandvoort - Grand Prix",
+              "t": null,
+              "r": "constant weather",
+              "s": "Standing",
+              "sim": "15:30"
+            },
+            {
+              "w": 10,
+              "d": "2026-11-17",
+              "track": "Virginia International Raceway - Grand Course",
+              "t": null,
+              "r": "constant weather",
+              "s": "Standing",
+              "sim": "12:00"
+            },
+            {
+              "w": 11,
+              "d": "2026-11-24",
+              "track": "Circuito de Jerez - \u00c1ngel Nieto - Grand Prix",
+              "t": null,
+              "r": "constant weather",
+              "s": "Standing",
+              "sim": "13:15"
+            },
+            {
+              "w": 12,
+              "d": "2026-12-01",
+              "track": "Algarve International Circuit - Grand Prix",
+              "t": null,
+              "r": "constant weather",
+              "s": "Standing",
+              "sim": "15:25"
+            }
+          ]
+        },
+        {
+          "id": "Ring Meister",
+          "name": "Ring Meister",
+          "sourceName": "Ring Meister by LVRY",
+          "tags": [],
+          "ringMeister": true,
+          "weeks": [
+            {
+              "w": 1,
+              "d": "2026-09-15",
+              "track": "N\u00fcrburgring Nordschleife - Industriefahrten",
+              "t": 19,
+              "r": "dry",
+              "s": "Rolling",
+              "sim": "13:45",
+              "car": "Caterham 420R"
+            },
+            {
+              "w": 2,
+              "d": "2026-09-22",
+              "track": "N\u00fcrburgring Nordschleife - Industriefahrten",
+              "t": 19,
+              "r": "dry",
+              "s": "Rolling",
+              "sim": "12:00",
+              "car": "Lotus 79"
+            },
+            {
+              "w": 3,
+              "d": "2026-09-29",
+              "track": "N\u00fcrburgring Nordschleife - Industriefahrten",
+              "t": 19,
+              "r": "dry",
+              "s": "Rolling",
+              "sim": "14:05",
+              "car": "SCCA Spec Racer Ford"
+            },
+            {
+              "w": 4,
+              "d": "2026-10-06",
+              "track": "N\u00fcrburgring Nordschleife - Industriefahrten",
+              "t": 19,
+              "r": "dry",
+              "s": "Rolling",
+              "sim": "12:00",
+              "car": "Ruf RT 12R Track"
+            },
+            {
+              "w": 5,
+              "d": "2026-10-13",
+              "track": "N\u00fcrburgring Nordschleife - Industriefahrten",
+              "t": 19,
+              "r": "dry",
+              "s": "Rolling",
+              "sim": "12:00",
+              "car": "Street Stock - Casino M2, Street Stock - Eagle T3, Street Stock - Panther C1"
+            },
+            {
+              "w": 6,
+              "d": "2026-10-20",
+              "track": "N\u00fcrburgring Nordschleife - Industriefahrten",
+              "t": 19,
+              "r": "dry",
+              "s": "Rolling",
+              "sim": "14:05",
+              "car": "Acura NSX GT3 EVO 22, Aston Martin Vantage GT3 EVO, Audi R8 LMS EVO II GT3, BMW M4 GT3 EVO, Chevrolet Corvette Z06 GT3.R, Ferrari 296 GT3, Ford Mustang GT3, Lamborghini Hurac\u00e1n GT3 EVO, McLaren 720S GT3 EVO, Mercedes-AMG GT3 2020, Porsche 911 GT3 R (992)"
+            },
+            {
+              "w": 7,
+              "d": "2026-10-27",
+              "track": "N\u00fcrburgring Nordschleife - Industriefahrten",
+              "t": 19,
+              "r": "dry",
+              "s": "Rolling",
+              "sim": "12:00",
+              "car": "Skip Barber Formula 2000"
+            },
+            {
+              "w": 8,
+              "d": "2026-11-03",
+              "track": "N\u00fcrburgring Nordschleife - Industriefahrten",
+              "t": 19,
+              "r": "dry",
+              "s": "Rolling",
+              "sim": "12:50",
+              "car": "Audi RS3 LMS Gen2 TCR, Honda Civic Type R TCR, Hyundai Elantra N TCR, Hyundai Veloster N TCR"
+            },
+            {
+              "w": 9,
+              "d": "2026-11-10",
+              "track": "N\u00fcrburgring Nordschleife - Industriefahrten",
+              "t": 19,
+              "r": "dry",
+              "s": "Rolling",
+              "sim": "12:00",
+              "car": "Aston Martin Vantage GT4, BMW M4 G82 GT4 Evo, Ford Mustang GT4, McLaren 570S GT4, Mercedes-AMG GT4, Porsche 718 Cayman GT4 Strict. Clubsport MR"
+            },
+            {
+              "w": 10,
+              "d": "2026-11-17",
+              "track": "N\u00fcrburgring Nordschleife - Industriefahrten",
+              "t": 19,
+              "r": "dry",
+              "s": "Rolling",
+              "sim": "13:05",
+              "car": "Formula Vee - Classic, Formula Vee - Conqueror, Formula Vee - Sabre"
+            },
+            {
+              "w": 11,
+              "d": "2026-11-24",
+              "track": "N\u00fcrburgring Nordschleife - Industriefahrten",
+              "t": 19,
+              "r": "dry",
+              "s": "Rolling",
+              "sim": "12:00",
+              "car": "Global Mazda MX-5 Cup"
+            },
+            {
+              "w": 12,
+              "d": "2026-12-01",
+              "track": "N\u00fcrburgring Nordschleife - Industriefahrten",
+              "t": 18,
+              "r": "dry",
+              "s": "Rolling",
+              "sim": "13:45",
+              "car": "Mini Stock"
+            }
+          ]
+        },
+        {
+          "id": "Production Endurance Challenge",
+          "name": "Production Endurance Challenge",
+          "sourceName": "Production Endurance Challenge",
+          "tags": [],
+          "ringMeister": false,
+          "weeks": [
+            {
+              "w": 1,
+              "d": "2026-09-18",
+              "track": "Hockenheimring Baden-W\u00fcrttemberg - Outer",
+              "t": 20,
+              "r": "29% rain",
+              "s": "Rolling",
+              "sim": "09:15"
+            },
+            {
+              "w": 2,
+              "d": "2026-09-25",
+              "track": "Autodromo Nazionale Monza - GP without first chicane",
+              "t": 22,
+              "r": "dry",
+              "s": "Rolling",
+              "sim": "12:00"
+            },
+            {
+              "w": 3,
+              "d": "2026-10-02",
+              "track": "Snetterton Circuit - 300",
+              "t": 19,
+              "r": "dry",
+              "s": "Rolling",
+              "sim": "13:25"
+            },
+            {
+              "w": 4,
+              "d": "2026-10-09",
+              "track": "Motorsport Arena Oschersleben - Grand Prix",
+              "t": 21,
+              "r": "dry",
+              "s": "Rolling",
+              "sim": "10:00"
+            },
+            {
+              "w": 5,
+              "d": "2026-10-16",
+              "track": "Silverstone Circuit - International",
+              "t": 19,
+              "r": "dry",
+              "s": "Rolling",
+              "sim": "12:00"
+            },
+            {
+              "w": 6,
+              "d": "2026-10-23",
+              "track": "N\u00fcrburgring Grand-Prix-Strecke - Kurzanbindung w/out Arena",
+              "t": 19,
+              "r": "34% rain",
+              "s": "Rolling",
+              "sim": "14:05"
+            },
+            {
+              "w": 7,
+              "d": "2026-10-30",
+              "track": "Circuito de Navarra - Speed Circuit",
+              "t": 20,
+              "r": "dry",
+              "s": "Rolling",
+              "sim": "13:20"
+            },
+            {
+              "w": 8,
+              "d": "2026-11-06",
+              "track": "Sonoma Raceway - Cup Long",
+              "t": 21,
+              "r": "dry",
+              "s": "Rolling",
+              "sim": "12:00"
+            },
+            {
+              "w": 9,
+              "d": "2026-11-13",
+              "track": "Circuit des 24 Heures du Mans - Historic",
+              "t": 19,
+              "r": "dry",
+              "s": "Rolling",
+              "sim": "09:45"
+            },
+            {
+              "w": 10,
+              "d": "2026-11-20",
+              "track": "Summit Point Raceway - Summit Point Raceway",
+              "t": 19,
+              "r": "dry",
+              "s": "Rolling",
+              "sim": "14:15"
+            },
+            {
+              "w": 11,
+              "d": "2026-11-27",
+              "track": "Watkins Glen International - Classic Boot",
+              "t": 19,
+              "r": "28% rain",
+              "s": "Rolling",
+              "sim": "17:05"
+            },
+            {
+              "w": 12,
+              "d": "2026-12-04",
+              "track": "Oulton Park Circuit - Island Historic",
+              "t": 19,
+              "r": "dry",
+              "s": "Rolling",
+              "sim": "15:50"
+            }
+          ]
+        },
+        {
+          "id": "Creventic Endurance Series",
+          "name": "Creventic Endurance Series",
+          "sourceName": "Creventic Endurance Series",
+          "tags": [],
+          "ringMeister": false,
+          "weeks": [
+            {
+              "w": 1,
+              "d": "2026-06-13",
+              "track": "Autodromo Internazionale del Mugello - Grand Prix",
+              "t": 20,
+              "r": "100% rain",
+              "s": "Rolling",
+              "sim": "12:00"
+            },
+            {
+              "w": 2,
+              "d": "2026-07-18",
+              "track": "Circuit de Spa-Francorchamps - Grand Prix Pits",
+              "t": 20,
+              "r": "41% rain",
+              "s": "Rolling",
+              "sim": "12:00"
+            },
+            {
+              "w": 3,
+              "d": "2026-08-15",
+              "track": "Circuit de Barcelona Catalunya - Historic",
+              "t": 31,
+              "r": "dry",
+              "s": "Rolling",
+              "sim": "12:00"
+            },
+            {
+              "w": 4,
+              "d": "2026-09-12",
+              "track": "N\u00fcrburgring Grand-Prix-Strecke - BES/WEC",
+              "t": 19,
+              "r": "42% rain",
+              "s": "Rolling",
+              "sim": "12:00"
+            },
+            {
+              "w": 5,
+              "d": "2026-09-26",
+              "track": "Circuit de Barcelona Catalunya - Historic",
+              "t": 27,
+              "r": "dry",
+              "s": "Rolling",
+              "sim": "12:00"
+            }
+          ]
+        },
+        {
+          "id": "iRacing DTM Series",
+          "name": "iRacing DTM Series",
+          "sourceName": "iRacing DTM Series",
+          "tags": [],
+          "ringMeister": false,
+          "weeks": [
+            {
+              "w": 1,
+              "d": "2026-04-23",
+              "track": "Red Bull Ring - Grand Prix",
+              "t": 21,
+              "r": "dry",
+              "s": "Rolling",
+              "sim": "13:35"
+            },
+            {
+              "w": 2,
+              "d": "2026-05-21",
+              "track": "Circuit Zandvoort - Grand Prix",
+              "t": 19,
+              "r": "13% rain",
+              "s": "Rolling",
+              "sim": "13:55"
+            },
+            {
+              "w": 3,
+              "d": "2026-06-18",
+              "track": "Circuit de Spa-Francorchamps - Grand Prix Pits",
+              "t": 20,
+              "r": "dry",
+              "s": "Rolling",
+              "sim": "07:50"
+            },
+            {
+              "w": 4,
+              "d": "2026-07-02",
+              "track": "Brands Hatch Circuit - Grand Prix",
+              "t": 20,
+              "r": "34% rain",
+              "s": "Rolling",
+              "sim": "13:55"
+            },
+            {
+              "w": 5,
+              "d": "2026-07-23",
+              "track": "Motorsport Arena Oschersleben - Grand Prix",
+              "t": 20,
+              "r": "dry",
+              "s": "Rolling",
+              "sim": "07:50"
+            },
+            {
+              "w": 6,
+              "d": "2026-08-13",
+              "track": "N\u00fcrburgring Grand-Prix-Strecke - Sprintstrecke",
+              "t": 22,
+              "r": "dry",
+              "s": "Rolling",
+              "sim": "14:15"
+            },
+            {
+              "w": 7,
+              "d": "2026-09-10",
+              "track": "Sachsenring",
+              "t": 23,
+              "r": "dry",
+              "s": "Rolling",
+              "sim": "12:00"
+            },
+            {
+              "w": 8,
+              "d": "2026-10-08",
+              "track": "Hockenheimring Baden-W\u00fcrttemberg - Grand Prix",
+              "t": 19,
+              "r": "13% rain",
+              "s": "Rolling",
+              "sim": "13:25"
             }
           ]
         }
