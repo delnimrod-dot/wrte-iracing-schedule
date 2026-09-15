@@ -237,13 +237,49 @@ function render() {
     return;
   }
 
-  const daily = [], special = [], idle = [];
+  // Daily races: only this license rank.
+  // Special events: also show in higher ranks (C requirement → C, B, A).
+  const RANK_ORDER = ['R','D','C','B','A']; // low → high
+  function rankIdx(cls) {
+    const i = RANK_ORDER.indexOf(cls);
+    return i < 0 ? 99 : i;
+  }
+  const viewIdx = rankIdx(group.cls);
+  const daily = [], special = [], idle = [], seenSpecial = new Set();
+
   for (const s of group.series) {
     const w = weekEntry(s, state.week);
     if (w) {
-      if (s.special) special.push({ s, w });
-      else daily.push({ s, w });
-    } else {
+      if (s.special) {
+        special.push({ s, w });
+        seenSpecial.add(s.name);
+      } else {
+        daily.push({ s, w });
+      }
+    } else if (!s.special) {
+      const next = (s.weeks || []).find(x => x.d && new Date(x.d+'T00:00:00Z') > to);
+      idle.push({ s, next });
+    }
+  }
+
+  // Pull specials from lower-or-equal license groups in this category
+  for (const g of (cat.groups || [])) {
+    if (rankIdx(g.cls) > viewIdx) continue; // higher requirement than viewer — skip
+    for (const s of g.series || []) {
+      if (!s.special || seenSpecial.has(s.name)) continue;
+      const w = weekEntry(s, state.week);
+      if (w) {
+        special.push({ s, w });
+        seenSpecial.add(s.name);
+      }
+    }
+  }
+
+  // Idle specials: only those whose min requirement is this rank (avoid clutter on A/B)
+  for (const s of group.series) {
+    if (!s.special || seenSpecial.has(s.name)) continue;
+    const w = weekEntry(s, state.week);
+    if (!w) {
       const next = (s.weeks || []).find(x => x.d && new Date(x.d+'T00:00:00Z') > to);
       idle.push({ s, next });
     }
