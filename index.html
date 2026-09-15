@@ -74,13 +74,10 @@ th {
   text-align:left; font-size:11px; letter-spacing:.16em; color:var(--green);
   padding:0 10px 8px; text-transform:uppercase; font-weight:700;
 }
-th.r { text-align:right; }
 td { padding:9px 10px; border-top:1px solid var(--line); vertical-align:top; }
 tr.alt td { background:var(--row); }
 td.series { font-weight:700; color:#f2fff2; width:38%; }
 td.mid { color:var(--track); }
-td.fmt { color:var(--green); text-align:right; white-space:nowrap; font-size:12px; font-weight:600; }
-td.note { color:var(--muted); font-size:13px; text-align:right; }
 .tag {
   display:inline-block; margin-left:6px; padding:1px 6px; border-radius:3px;
   background:#1a241a; color:var(--muted); font-size:10px; font-weight:700;
@@ -93,7 +90,7 @@ footer {
   font-size:11px; letter-spacing:.12em; color:#3a783a; text-transform:uppercase;
 }
 @media (max-width:700px) {
-  td.series, td.mid, td.fmt { display:block; width:auto; text-align:left; }
+  td.series, td.mid { display:block; width:auto; text-align:left; }
   th { display:none; }
 }
 </style>
@@ -176,10 +173,8 @@ function tagsHtml(series) {
   return (series.tags || []).map(t => `<span class="tag">${esc(t)}</span>`).join('');
 }
 function rowMid(series, w) {
-  if (series.ringMeister) return { mid: w.car || 'TBD car', fmt: '' };
-  const bits = [];
-  if (w.r && w.r !== 'dry' && w.r !== 'constant weather') bits.push(w.r);
-  return { mid: w.track || '—', fmt: bits.join(' · ') };
+  if (series.ringMeister) return w.car || 'TBD car';
+  return w.track || '—';
 }
 function currentCat() {
   return DATA.classes.find(c => c.key === state.classKey);
@@ -258,10 +253,10 @@ function render() {
   </div>`;
 
   if (active.length) {
-    html += `<table><thead><tr><th>Series</th><th>${useCar ? 'Car' : 'Track'}</th><th class="r">Notes</th></tr></thead><tbody>`;
+    html += `<table><thead><tr><th>Series</th><th>${useCar ? 'Car' : 'Track'}</th></tr></thead><tbody>`;
     active.forEach((row, i) => {
-      const { mid, fmt } = rowMid(row.s, row.w);
-      html += `<tr class="${i%2?'':'alt'}"><td class="series">${esc(row.s.name)}${tagsHtml(row.s)}</td><td class="mid">${esc(mid)}</td><td class="fmt">${esc(fmt)}</td></tr>`;
+      const mid = rowMid(row.s, row.w);
+      html += `<tr class="${i%2?'':'alt'}"><td class="series">${esc(row.s.name)}${tagsHtml(row.s)}</td><td class="mid">${esc(mid)}</td></tr>`;
     });
     html += `</tbody></table>`;
   } else {
@@ -271,9 +266,7 @@ function render() {
   if (idle.length) {
     html += `<div class="idle"><h3>Not this week</h3><table><tbody>`;
     idle.forEach((row, i) => {
-      let note = 'No round';
-      if (row.next) note = row.next.d ? ('Next: ' + fmtDate(row.next.d)) : ('Next: week ' + row.next.w);
-      html += `<tr class="${i%2?'':'alt'}"><td class="series" style="color:var(--muted)">${esc(row.s.name)}${tagsHtml(row.s)}</td><td class="note">${esc(note)}</td></tr>`;
+      html += `<tr class="${i%2?'':'alt'}"><td class="series" style="color:var(--muted)">${esc(row.s.name)}${tagsHtml(row.s)}</td></tr>`;
     });
     html += `</tbody></table></div>`;
   }
