@@ -136,8 +136,10 @@ function currentWeek() {
 }
 
 function defaultRank(cat) {
-  const g = (cat.groups || [])[0];
-  return g ? g.cls : 'R';
+  const order = ['A','B','C','D','R'];
+  const ranks = (cat.groups || []).map(g => g.cls);
+  for (const c of order) if (ranks.includes(c)) return c;
+  return ranks[0] || 'R';
 }
 
 const firstCat = DATA.classes.find(c => c.key === 'sports-car') || DATA.classes[0];
@@ -196,11 +198,14 @@ function renderControls() {
     state.classKey = b.dataset.class;
     const next = DATA.classes.find(c => c.key === state.classKey);
     const ranks = (next.groups || []).map(g => g.cls);
-    if (!ranks.includes(state.rank)) state.rank = ranks[0] || 'R';
+    if (!ranks.includes(state.rank)) { const order=['A','B','C','D','R']; state.rank = order.find(c => ranks.includes(c)) || ranks[0] || 'R'; }
     render();
   });
 
-  document.getElementById('rankSeg').innerHTML = (cat.groups || []).map(g => {
+  document.getElementById('rankSeg').innerHTML = [...(cat.groups || [])].sort((a,b) => {
+    const order = {A:0,B:1,C:2,D:3,R:4};
+    return (order[a.cls] ?? 9) - (order[b.cls] ?? 9);
+  }).map(g => {
     const badge = ['R','D','C','B','A'].includes(g.cls) ? g.cls : 'U';
     return `<button type="button" data-rank="${esc(g.cls)}" class="${g.cls===state.rank?'active':''}"><span class="dot ${badge}"></span>${esc(g.label)}</button>`;
   }).join('');
