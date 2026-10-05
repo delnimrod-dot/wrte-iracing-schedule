@@ -259,10 +259,9 @@ function render() {
       } else {
         daily.push({ s, w });
       }
-    } else if (!s.special) {
-      const next = (s.weeks || []).find(x => x.d && new Date(x.d+'T00:00:00Z') > to);
-      idle.push({ s, next });
     }
+    // Daily series without a round this week are omitted from Not this week
+    // (that section is reserved for recurring specials only).
   }
 
   // Pull specials from lower-or-equal license groups in this category
@@ -278,9 +277,12 @@ function render() {
     }
   }
 
-  // Idle specials: only those whose min requirement is this rank (avoid clutter on A/B)
+  // Idle specials: only multi-race specials (>1 occurrence in season) whose
+  // min requirement is this rank (avoid clutter on A/B). One-off specials
+  // (Petit Le Mans, Bathurst 1000, hosted one-shots, etc.) stay off this list.
   for (const s of group.series) {
     if (!s.special || seenSpecial.has(s.name)) continue;
+    if ((s.weeks || []).length <= 1) continue;
     const w = weekEntry(s, state.week);
     if (!w) {
       const next = (s.weeks || []).find(x => x.d && new Date(x.d+'T00:00:00Z') > to);
