@@ -225,6 +225,12 @@ function renderControls() {
   });
 }
 
+
+const EXCLUDED_SERIES_RE = /itested/i;
+function isExcludedSeries(s) {
+  return EXCLUDED_SERIES_RE.test(s && s.name || '');
+}
+
 function render() {
   renderControls();
   const cat = currentCat();
@@ -251,6 +257,7 @@ function render() {
   const daily = [], special = [], idle = [], seenSpecial = new Set();
 
   for (const s of group.series) {
+    if (isExcludedSeries(s)) continue;
     const w = weekEntry(s, state.week);
     if (w) {
       if (s.special) {
@@ -268,7 +275,7 @@ function render() {
   for (const g of (cat.groups || [])) {
     if (rankIdx(g.cls) > viewIdx) continue; // higher requirement than viewer — skip
     for (const s of g.series || []) {
-      if (!s.special || seenSpecial.has(s.name)) continue;
+      if (isExcludedSeries(s) || !s.special || seenSpecial.has(s.name)) continue;
       const w = weekEntry(s, state.week);
       if (w) {
         special.push({ s, w });
@@ -281,7 +288,7 @@ function render() {
   // min requirement is this rank (avoid clutter on A/B). One-off specials
   // (Petit Le Mans, Bathurst 1000, hosted one-shots, etc.) stay off this list.
   for (const s of group.series) {
-    if (!s.special || seenSpecial.has(s.name)) continue;
+    if (isExcludedSeries(s) || !s.special || seenSpecial.has(s.name)) continue;
     if ((s.weeks || []).length <= 1) continue;
     const w = weekEntry(s, state.week);
     if (!w) {
